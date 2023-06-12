@@ -1,6 +1,8 @@
 :root{
     --bcg-color:black;
-    --primary-color:#155e75;
+    /* --primary-color:#155e75; */
+    --primary-color:pink;
+
     --border-radius:8px;
     --secondary-color:white;
     --border-color:#ffff;
@@ -99,9 +101,25 @@ body{
         padding: 12px;
         font-size: 16px;
     }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .qr-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sizes>*{
+        width: 100px;
+        height:100px
+    }
+    /* Github */
 }
+/* 
 @media(max-width:80%){
     #downloadBtn{
         font-size: 16px;;
     }
-}
+} */
