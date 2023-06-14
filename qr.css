@@ -1,8 +1,8 @@
 :root{
     --bcg-color:black;
-    /* --primary-color:#155e75; */
-    --primary-color:pink;
-
+     --primary-color:#155e75; 
+/*     --primary-color:pink;
+ */
     --border-radius:8px;
     --secondary-color:white;
     --border-color:#ffff;
